@@ -1,0 +1,24 @@
+// um conjunto de instruções que executa uma tarefa
+
+/*function funcao(){   //declarando uma função
+    console,console.log('Tudo certo');
+}
+funcao();  //chamando uma função
+
+
+
+//Funções com parâmentros    exemplo abaixo
+    function nomeDaFuncao(parametro){
+    ${instrução};
+}
+
+    nomeDaFuncao(valorDoParametro);  
+
+function mensagem(primeiro, segundo){
+    console.log(primeiro, segundo);
+
+}
+mensagem('tudo certo', 'amigo'); */
+
+
+
