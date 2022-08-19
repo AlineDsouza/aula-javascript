@@ -43,3 +43,19 @@ console.log(array);
 let novoArray = array.slice (0, 3);
 console.log(novoArray);
 
+
+//OBJETO
+let object = {string: 'string', number:1, boolean:true,array:['array'], objectInterno:{objectInterno:'Objeto interno'}};
+
+console.log(object.objectInterno);
+
+//Desestruturação
+
+var string = object.string;
+console.log(string);
+
+var arrayInterno = object.array;
+console.log(arrayInterno);
+
+var {string, boolean} = object;
+console.log(string,boolean);
