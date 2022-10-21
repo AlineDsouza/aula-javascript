@@ -22,3 +22,37 @@ mensagem('tudo certo', 'amigo'); */
 
 
 
+     //Declaração de função
+        function ola (){
+            document.write("Isto é uma função!")
+        }
+        ola()
+
+        //expressão de função
+        const ola2 = function(){
+            console.log("Função de expressão")
+        }
+        ola2()
+
+        //Arrow functions
+        const ola3 = () => {
+            console.log("Função arrow function")
+        }
+        ola3()
+
+        //retorno de valores
+        function diaSemana (){
+            return new Date().getDay()
+        }
+        console.log(diaSemana())
+
+
+        //Recebendo valores
+        function somar(n1, n2){
+            return n1 + n2
+        }
+        let soma = somar(3, 5)
+        console.log(soma)
+
+        console.log(somar(2,1))
+        alert(somar(1,2))
