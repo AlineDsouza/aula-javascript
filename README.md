@@ -1,2 +1,2 @@
 # aula-javascript
-Introdução ao Javascript
+Introdução ao Javascript, praticas e desafios Javascript
