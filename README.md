@@ -1,2 +1,2 @@
 # aula-javascript
-Javascript, praticas, teorias e desafios Javascript
+Javascript, praticas, teorias e desafios 
