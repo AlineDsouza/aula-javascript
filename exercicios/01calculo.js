@@ -1,4 +1,4 @@
-
+//Exercício 
 /*Faça um programa paara calcular o valor uma viagem
 
 1 - Preço do combustível
@@ -15,3 +15,6 @@ const litrosConsumidos = distanciaPercorrida / kmPorLitro;
 const GastoDaViagem =  valorCombustivel * litrosConsumidos;
 
 console.log(`O gasto da viagem será de R$${GastoDaViagem.toFixed(2)}`)
+
+
+
