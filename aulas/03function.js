@@ -56,3 +56,5 @@ mensagem('tudo certo', 'amigo'); */
 
         console.log(somar(2,1))
         alert(somar(1,2))
+
+        // Aula 
