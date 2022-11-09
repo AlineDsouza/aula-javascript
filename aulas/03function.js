@@ -22,7 +22,7 @@ mensagem('tudo certo', 'amigo'); */
 
 
 
-     //Declaração de função
+   /*  //Declaração de função
         function ola (){
             document.write("Isto é uma função!")
         }
@@ -58,3 +58,31 @@ mensagem('tudo certo', 'amigo'); */
         alert(somar(1,2))
 
         // Aula 
+        */
+
+        function quadrado(valor){
+           return valor*valor
+        }
+        const quadradoDeDez = quadrado(10)
+        console.log(quadradoDeDez)
+
+
+
+    function incrementarJuros(valor, percentualjuros){
+        const valorDeAcrescimo = (percentualjuros /100 ) * valor
+        return valor + valorDeAcrescimo
+    }
+    console.log(incrementarJuros (100, 10))
+    console.log(incrementarJuros (100, 15))
+
+    //modelo
+
+    function calcularJuros(){
+
+    }
+
+    function main(){
+        console.log('Programa principal')
+        calcularJuros()
+    }
+    main()
