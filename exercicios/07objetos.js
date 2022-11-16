@@ -4,3 +4,4 @@ Os carros possuem uma marca, uma cor, e um gasto médio de combustível por km r
 
 Crie um método que dado a quantidade de km e preço do combustível nos dê o valor gasto em reais para realizar este percurso.
 */
+
