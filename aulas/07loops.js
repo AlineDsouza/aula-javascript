@@ -16,7 +16,7 @@
      document.write("Saiu do loop For")
 
 
- do{
+ //do{
 
-} while()
+//} while()
 
