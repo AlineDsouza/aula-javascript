@@ -23,7 +23,7 @@ for(let i = 0; i<nome.length; i++){ // variavel; condiçao; incremento;
     console.log(nome[i]);
 } */
 
-const notas =[]
+/*const notas =[]
 
 notas.push(5)
 notas.push(6)
@@ -41,3 +41,13 @@ for (let i = 0; i <notas.length; i++) {
 
 const media = soma / notas.length
 console.log(media.toFixed(2))
+*/
+
+//Iterar arrays
+const nomes = ['Maria', 'Jose', 'Daniel']
+
+for( let i = 0; i<nomes.length; i++){
+    console.log(`${i}: Nome é ${nomes[i]}`)
+}
+
+//Iterar objetos
