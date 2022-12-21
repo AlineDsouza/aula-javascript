@@ -47,7 +47,18 @@ console.log(media.toFixed(2))
 const nomes = ['Maria', 'Jose', 'Daniel']
 
 for( let i = 0; i<nomes.length; i++){
-    console.log(`${i}: Nome é ${nomes[i]}`)
+   // console.log(`${i}: Nome é ${nomes[i]}`)
 }
 
 //Iterar objetos
+const pessoa = {
+    nome: 'Maria',
+    idade: 28,
+    email: "maria2@email.com"
+}
+console.log(pessoa)
+for(let prop in pessoa){
+    console.log(prop)
+    console.log(pessoa[prop])
+    
+}

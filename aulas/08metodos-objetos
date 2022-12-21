@@ -1,0 +1,20 @@
+//const pessoa = new Object()
+//pessoa.nome = 'Daniel'
+//pessoa.idade = 40
+//console.log(pessoa)
+
+const produto = {
+    nome: 'Caneta',
+    quantidade: 10,
+    
+    comprar(n){
+        console.log(this)
+        if(n > this.quantidade){
+            return "quantidade nao disponivel"
+        }
+        this.quantidade -= n
+    }
+}
+
+produto.comprar(3)
+console.log(produto)
