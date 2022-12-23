@@ -1,0 +1,5 @@
+//Função auto invocavel
+
+(function(){
+
+})()
