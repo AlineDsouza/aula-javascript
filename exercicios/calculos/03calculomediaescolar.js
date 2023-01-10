@@ -9,7 +9,7 @@ Classificação:
 - Média entre 5 e 7, recuperação
 - Média maior que 7, aprovado
 */
-
+/*
 const nota1 = 5
 const nota2 = 15
 const nota3 = 1
@@ -26,3 +26,24 @@ if (mediaEscolar <5){
 else{
      console.log('nada aqui')
 }
+
+*/
+
+ //função autoinvocavel - tudo que fizer aqui dentro nao vai para o escopo da fução
+(function(){
+    function calcularMedia(){
+        let total = 0
+        let qtd = arguments.length
+
+        for (let i = 0; i < qtd; i++) {
+            if(typeof arguments[i] !=="number"){
+                throw Error("Apenas números")
+            }
+            total += arguments[i]
+        }
+        return total / qtd
+    }
+    //execução da função
+    let media = calcularMedia(2,9,5,5,3,1)
+    console.log(media)
+})()
