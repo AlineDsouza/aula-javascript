@@ -1,6 +1,9 @@
 body{
     background-color: rgb(170, 187, 243);
     font: normal, 15pt Arial ;
+    text-align: center;
+    margin: auto;
+    padding: auto;
 }
 
 header{
@@ -20,6 +23,13 @@ footer{
     text-align: center;
     font-style: normal;
 }
-div{
-    text-align: center;
+input{
+    background-color: rgb(219, 226, 240);
+   border: none;
+   padding: 5px; 
+   border-radius: 5px; 
+   cursor: pointer;
+   
+
+   
 }
