@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(225, 248, 210);
+        margin: 20px;
+    }
+    
+</style>
+<body>
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <br>
+     <input type="number" name="txtvel"  id="txtvel"> Km/h
+    <br>
+    <input type="button" value="verificar" onclick="verificar()">
+
+    <div id="res">
+        Velocidade.
+    </div>
+
+    <script>
+    function verificar(){
+        var txtvel = window.document.querySelector('input#txtvel')
+        var res = window.document.querySelector('div#res')
+        var vel = Number(txtvel.value)
+
+        res.innerHTML = `Sua velocidade é de ${vel} km/h <br>`  
+        
+        if(vel > 70){
+            res.innerHTML += ` Multado!`
+        } else{
+            res.innerHTML += ` Digija sempre com o sinto de segurança!`
+        }
+}
+
+    </script>
+</body>
+</html>
