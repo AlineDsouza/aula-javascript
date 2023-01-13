@@ -1,5 +1,5 @@
 
- let numero = prompt("Digite um numero")
+/* let numero = prompt("Digite um numero")
  let indice = 0
 
  while(indice <=10){
@@ -19,4 +19,25 @@
  //do{
 
 //} while()
+*/
 
+
+
+var cont = 1
+
+while (cont <= 10) {
+    console.log(`Tudo certo!${cont}`)
+    cont++  //precisa garantir que vai sair do loop
+ }
+
+do{
+ console.log(`Tudo certo ${cont}`)
+ cont ++ //precisa garantir que vai sair do loop
+} while(cont <=10 )
+
+
+
+var i = 1
+for(i =1;  i<=10;  i++){
+    console.log(`oi ${i}`)
+}

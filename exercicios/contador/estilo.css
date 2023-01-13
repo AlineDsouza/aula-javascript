@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(151, 125, 252);
+    font: normal, 15pt Arial ;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgb(110, 110, 110);
+}
+
+input{
+    background-color: rgb(219, 226, 240);
+   border: none;
+   padding: 7px; 
+   border-radius: 5px; 
+   cursor: pointer;  
+   width: 100px; 
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
