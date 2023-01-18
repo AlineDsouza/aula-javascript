@@ -1,5 +1,5 @@
 //array de pessoas
-
+/*
 const pessoas = [ {
     nome: "Daniel",
     idade: 40
@@ -17,3 +17,11 @@ const pessoas = [ {
 for(let i =0; i<pessoas.length; i++){
     console.log(`${pessoas[i].nome} possui ${pessoas[i].idade} anos`)
 }
+ 
+
+let valores = [7,9,6,2,4,1,8]
+for(let i in valores){
+    console.log(valores[i])
+} 
+*/
+

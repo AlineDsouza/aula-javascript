@@ -5,14 +5,14 @@
 }
 
 body{
-    background:#ccc;
+    background:rgba(163, 170, 214, 0.538);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
     
 }
 header{
     background-color: rgb(117, 186, 251);
-    background-image: url(imagem/);
+    background-image: url(imagem/capa.jpg);
     background-position: right center;
     background-size: cover;
     height: 400px;
@@ -57,7 +57,7 @@ main{
     margin: auto;
 }
 .wrap{
-    background-color: blueviolet; 
+
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
