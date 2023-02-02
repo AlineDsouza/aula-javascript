@@ -1,0 +1,67 @@
+
+<!doctype html>
+
+<html lang="pt-br">
+    <style>
+        body{
+        background-color: rgb(243, 170, 180);
+        width: 500px; 
+        margin: auto;
+        text-align: center;
+    }
+        h2{
+            color: aliceblue;
+        }
+        p{
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+            display: flex;
+        justify-content: flex-end;
+        }
+    </style>
+
+<head>
+    <title> pagina de exemplo de DOM </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel">
+    <meta name="description" content="descrição bacanuda">
+    <meta name="keywords" content="html5, tecnologia">
+
+</head>
+
+<body>
+
+    <div id="principal">
+        <header class="hero">
+            <h1>Manipulando Dom</h1>
+        </header>
+
+        <section class="content-section">
+    
+                <div id="newsletterForm">
+                    <label for="txtEmail">Email:</label>
+                    <input type="email" onblur="disabledEmail()" id="txtemail" autocomplete="off" disabled value=" Clique no 'editar para alterar">
+                    <button id="bnt" onclick="editar()">Editar</button>    
+                </div>
+
+        </section>
+
+    </div>  <br><br><br><br><br>
+
+    <div class="wrap">
+        <h1> Exemplo 2</h1>
+
+        nome: <input type="text" id="txtnome" placeholder="nome"> <br> <br>
+       E-mail: <input type="text" id="email" placeholder="email">
+
+    </div>
+
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>

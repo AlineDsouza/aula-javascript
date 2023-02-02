@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<style>
+    h1{
+        color: brown;
+        text-align: center;
+    }
+    .container{
+        height: 300px;
+        border: 2px solid blueviolet;
+
+        display: flex;
+        /* alinhamento horizontal*/
+        justify-content: center;
+        /*alinhamento vertical*/
+        align-items: center;
+        /*quando a área máxima é atingida, os elementos começam a ser jogados para a segunda linha  */
+        /*flex-wrap: wrap;*/
+    }
+    .card{
+        color: rgb(128, 19, 108);
+        background-color: rgb(137, 222, 202);
+        border-radius: 15px;
+        width: 90px;
+        height: 100px;
+        margin: 10px;
+        text-align: center;
+    }
+    .box{
+        color: rgb(128, 19, 108);
+        background-color: rgb(137, 222, 202);
+        border-radius: 15px;
+        height: 100px;
+        margin: 10px;
+        /*define o tamanho inicial dos elementos, em unidades de pixel, antes que o espaço remanescente seja redistribuído.*/
+        flex-basis: 430px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        /*SHORTHAND para item
+        flex: grow shrink basis
+        */
+        flex: 1 1 50px;
+    }
+    
+    #item1{
+        /*Define a forma como o elemento crescer no container*/
+        flex-grow:2;
+    }
+    #item2, #item3{
+        flex-grow: 1;
+    }
+    
+    #item2{
+        flex-basis: 100px;
+    }
+    #item3{
+        /*Controla a fomra com que o elemento diminui
+        trabalha de forma contrária ao flex-grow*/
+        flex-shrink: 2;
+    }
+</style>
+
+</head>
+<body>  
+    <h1>Flexbox</h1>
+    <div class="container">
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+    </div>
+
+    <!-- Trabalhando itens individualmente-->
+    
+    <div class="container">
+        <div class="box" id="item1">1</div>
+        <div class="box" id="item2">2</div>
+        <div class="box" id="item3">3</div>
+
+    </div>
+</body>
+</html>
